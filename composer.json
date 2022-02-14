@@ -1,0 +1,19 @@
+{
+    "name": "deha-soft/jp-string-helper",
+    "description": "String helper for japanese",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DehaSoft\\JpStringHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deha",
+            "email": "developer@deha-soft.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
