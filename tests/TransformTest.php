@@ -16,7 +16,6 @@ class TransformTest extends TestCase
     {
         $halfSizeStr = "12345ｻﾞﾁﾞﾌﾟabcd";
         $output = Transform::toFullSize($halfSizeStr);
-        echo $output;
         $this->assertEquals("１２３４５ザヂプａｂｃｄ", $output);
     }
 }

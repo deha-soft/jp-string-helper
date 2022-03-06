@@ -20,5 +20,15 @@
     },
     "require": {
         "ext-mbstring": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DehaSoft\\JpStringHelper\\JpStrRulesServiceProvider"
+            ],
+            "aliases": {
+                "JpStrRulesTransform": "DehaSoft\\JpStringHelper\\Transform"
+            }
+        }
     }
 }
