@@ -33,7 +33,7 @@ echo $output;
 Example use of the Rule for Laravel validation.
 
 ``` php
-# using Rule import
+# using Rule class import
 use DehaSoft\JpStringHelper\Rules\FullSize;
 use DehaSoft\JpStringHelper\Rules\HalfSize;
 
@@ -46,6 +46,17 @@ public function rules()
 }
 ```
 
+```php
+# or using rule alias
+
+public function rules()
+{
+    return [
+        'name' => ['full_size'],
+        'description' => ['half_size'],
+    ];
+}
+```
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
