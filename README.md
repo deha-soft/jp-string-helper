@@ -5,10 +5,19 @@ Laravel Rule for validation Japanese string only full-width or only half-width.
 
 ## Installation
 
-You can install the package via composer:
+1. You can install the package via composer:
 
 ```bash
 composer require deha-soft/jp-string-helper
+```
+
+2. Optional: The service provider will automatically get registered. Or you may manually add the service provider in your config/app.php file:
+
+```php
+'providers' => [
+    // ...
+    DehaSoft\JpStringHelper\JpStrRulesServiceProvider::class,
+];
 ```
 
 ## Usage
